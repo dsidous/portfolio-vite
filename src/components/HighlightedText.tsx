@@ -12,7 +12,7 @@ export function HighlightedText({ text, className }: HighlightedTextProps) {
     <span className={className}>
       {parts.map((part, index) =>
         index % 2 === 1 ? (
-          <span key={index} className='text-teal-300 font-medium'>
+          <span key={index} className='text-accent font-medium'>
             {part}
           </span>
         ) : (
