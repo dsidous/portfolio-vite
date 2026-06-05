@@ -1,9 +1,37 @@
 import watchThumbnail from '../assets/watch-thumbnail.png';
 import wealthTrackerThumbnail from '../assets/wealth-thumbnail.png';
+import gloPayThumbnail from '../assets/glopay-thumbnail.png';
 
 import type { Project } from './types';
 
 export const PROJECTS: Project[] = [
+  {
+    title: 'GloPay app',
+    summary:
+      'A fintech platform handling multi-currency accounting and cross-border invoicing for freelancers.',
+    challenges: [
+      'Architected an **Nx Monorepo** for strict dependency management.',
+      'Integrated **Laravel Echo** for **event-driven UI updates** mapped to **TanStack Query** cache invalidations.',
+      'Developed a reusable **MUI component library** and optimized data fetching using **TanStack Query** with custom helpers for seamless **optimistic UI**.',
+      'Integrated **Auth0/MFA** for secure workflows.',
+      'Automated e2e test with AI generated **Cypress test suites**.',
+    ],
+    link: 'https://app.glopay.com/',
+    thumbnail: gloPayThumbnail,
+    tags: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Nx',
+      'MUI',
+      'TanStack Query',
+      'REST API',
+      'React Hook Form',
+      'Cypress',
+      'Cursor AI',
+      'Bun',
+    ],
+  },
   {
     title: 'Wealth Tracker (SaaS Platform)',
     summary:
