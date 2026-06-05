@@ -8,7 +8,7 @@
     <script>
       (function () {
         var stored = localStorage.getItem('portfolio-theme');
-        var theme = stored === 'dark' || stored === 'light' ? stored : 'light';
+        var theme = stored === 'dark' || stored === 'light' ? stored : 'dark';
         document.documentElement.setAttribute('data-theme', theme);
       })();
     </script>

@@ -7,7 +7,7 @@ const STORAGE_KEY = 'portfolio-theme';
 function getStoredTheme(): Theme {
   const stored = localStorage.getItem(STORAGE_KEY);
   if (stored === 'light' || stored === 'dark') return stored;
-  return 'light';
+  return 'dark';
 }
 
 function applyTheme(theme: Theme) {
