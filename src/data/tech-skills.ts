@@ -25,6 +25,7 @@ export const TECH_SKILLS: TechSkills = {
     'SST (Ion)',
     'AWS',
     'Cloudflare',
+    'Modal',
     'Supabase',
     'Jest',
     'Cypress',
@@ -34,5 +35,7 @@ export const TECH_SKILLS: TechSkills = {
     'Cursor (AI-Native IDE)',
     'Prompt Engineering',
     'Agentic AI',
+    'LLM Integration',
+    'Python (AI Services)',
   ],
 };

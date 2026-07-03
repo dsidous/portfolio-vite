@@ -60,8 +60,9 @@ export const PROJECTS: Project[] = [
   {
     title: 'Watch (Cinema Search & Watchlist Engine)',
     summary:
-      'A high-performance media discovery engine utilizing the **TMDB API**. Provides deep-metadata browsing for movies and TV series, persistent authenticated watchlists, and paginated global search filters.',
+      'A high-performance media discovery engine built on the **TMDB API**, with **AI-powered natural-language search**, deep-metadata browsing for movies and TV series, persistent authenticated watchlists, and paginated global search filters.',
     challenges: [
+      '**AI-Powered Discovery:** Built natural-language cinema search using a **Python** service on **Modal**, with **Groq** LLM inference to translate user intent into structured TMDB queries.',
       '**Infrastructure as Code (IaC):** Architected the deployment lifecycle using **SST (Ion)**, hosting the **Next.js** application on **AWS** while optimizing edge routing and DNS through **Cloudflare** variables.',
       '**UI/UX Performance:** Built an accessible user interface implementing a custom command palette and optimized infinite scrolling via **TanStack Query v5** for seamless navigation.',
       '**Advanced Server Patterns:** Utilized **Next.js Server Actions** for all state mutations, drastically reducing client-side bundle weight and protecting backend API routes on the server.',
@@ -81,6 +82,9 @@ export const PROJECTS: Project[] = [
       'AWS',
       'Cloudflare',
       'TanStack Query v5',
+      'Modal',
+      'Groq',
+      'Python',
     ],
   },
 ];
